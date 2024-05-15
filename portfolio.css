@@ -1,0 +1,117 @@
+body {
+    background-image: url('./images/pexels-tommy-haugsveen-1361215.jpg');    
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    margin-left: 30px;
+}
+header {
+    color: #dbd1f6;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+}
+.intro {
+    margin: 30vh  20vh;
+}
+.intro  h4{
+    color: #ffffff;
+    font-size: 22px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.intro h1 {
+    color: #6f3693;
+    font-size: 50px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+header h1 {
+    margin: 0;
+}
+  
+header nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+header nav li {
+    justify-content: left;
+}
+header nav li {
+    margin-left: 1rem;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+    letter-spacing: 0.15em;
+    display: inline-block;
+    padding: 15px 20px;
+    position: relative;
+}
+a:after {    
+    background: none repeat scroll transparent;
+    content: "";
+    display: block;
+    height: 2px;
+    left: 50%;
+    position: absolute;
+    background-color: #ffffff;
+    transition: width 0.3s ease 0s, left 0s ease 0s;
+    width: 0;
+}
+a:hover:after { 
+    width: 100%; 
+    left: 0; 
+}
+.about {
+    padding: 2px 2px;
+    color:#ffffff;
+    background-color:#652f87;
+    margin-left: 30px;
+    padding-left: 20px;
+    margin-right: 60px;
+    font-size: large;
+    opacity: 0.7; 
+    border-radius: 10px;
+}
+.education {
+    padding: 2px 2px;
+    color:#ffffff;
+    background-color:#652f87;
+    margin-left: 30px;
+    padding-left: 20px;
+    margin-right: 60px;
+    font-size: large;
+    border-radius: 10px;
+    margin-top: 40px;
+    opacity: 0.7; 
+}
+.projects {
+    padding: 2px 2px;
+    color:#ffffff;
+    background-color:#652f87;
+    margin-left: 30px;
+    padding-left: 20px;
+    margin-right: 60px;
+    font-size: large;
+    margin-top: 40px;
+    border-radius: 10px;
+    opacity: 0.7; 
+}
+.contact {
+    padding: 2px 2px;
+    color:#ffffff;
+    background-color:#652f87;
+    margin-left: 30px;
+    padding-left: 20px;
+    margin-right: 60px;
+    font-size: large;
+    margin-top: 40px;
+    border-radius: 10px;
+    opacity: 0.7; 
+}
+.img {
+    margin-left: 30px;
+}
+
